@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# 백업/미사용 사진 (138MB → 18MB로 줄이려고 분리)
+photos/_unused/
+photos/PHOTO_INDEX.md
+
+# 내부 작업 문서 (사업자 정보·사진 선별 메모 등 비공개)
+AGENTS.md
+IMAGE_RETTOUCH_PLAN.md
+PHOTO_SELECTION.md
+REPORT.md
+WEBSITE_CONTENT.md
+palette.html
+
+# 작업용 자료
+.playwright-mcp/
+
+# Editor
+.vscode/
+.idea/
+*.swp
