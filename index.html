@@ -620,10 +620,10 @@
     }
     .location-grid {
       display: grid;
-      grid-template-columns: 1fr 1.2fr;
+      grid-template-columns: 1fr;
+      max-width: 720px;
       gap: 60px;
       margin-top: 60px;
-      align-items: center;
     }
     .location-info dl {
       margin: 0;
@@ -1339,16 +1339,6 @@
             <dd>무료 · 펜션 앞 마당 충분한 공간</dd>
           </dl>
         </div>
-        <div class="map-embed reveal">
-          <iframe
-            src="https://www.openstreetmap.org/export/embed.html?bbox=126.720,35.435,126.740,35.450&layer=mapnik&marker=35.4427876,126.7299614"
-            title="OpenStreetMap — 영주성민박"
-            loading="lazy"></iframe>
-          <div class="map-actions">
-            <a href="https://map.naver.com/p/search/고창%20영주성민박/place/2066961267" target="_blank" rel="noopener" class="map-btn">네이버 지도에서 열기 →</a>
-            <a href="https://map.kakao.com/?q=고창%20영주성민박" target="_blank" rel="noopener" class="map-btn">카카오맵에서 열기 →</a>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -1384,8 +1374,8 @@
             </div>
           </div>
           <div class="price-info">
-            <div><span>체크인</span><span>15:00 (예정)</span></div>
-            <div><span>체크아웃</span><span>11:00 (예정)</span></div>
+            <div><span>체크인</span><span>15:00</span></div>
+            <div><span>체크아웃</span><span>11:00</span></div>
             <div><span>구성</span><span>욕실 2실</span></div>
             <div><span>주차</span><span>무료</span></div>
           </div>
