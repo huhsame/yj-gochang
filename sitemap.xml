@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://youngju.net/</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://youngju.net/photos/web/exterior_01_dusk_front.jpg</image:loc>
+      <image:caption>영주성민박 외관 — 고창 상원사 자락 2층 독채 펜션</image:caption>
+    </image:image>
+  </url>
+</urlset>
